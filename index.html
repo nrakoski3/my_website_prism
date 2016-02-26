@@ -1,0 +1,424 @@
+<!--  TAB LINK and TAB CONTENT -->
+<html>
+	<head>
+		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+		
+		<script>
+		jQuery(document).ready(function() {
+		jQuery(' .tablink a ').on('click',function(e) {
+		var currentAttrValue= $(this).attr('href');
+
+		jQuery('.tabs ' + currentAttrValue).show().siblings().hide();
+
+		jQuery(this).parent('li').addClass('active').siblings().removeClass('active');
+
+		e.preventDefault();
+		});
+		});
+		</script>
+		<link type="text/javascript" src="tabs.js"/>
+		<link type="text/css" rel="stylesheet" href="lab2stylesheet.css"/>
+		<title></title>
+	</head>
+<!--  TAB LINK and TAB CONTENT -->
+<a name="top1" class="anchor"> </a>
+<a name="top2" class="anchor"> </a>
+<a name="top3" class="anchor"> </a>
+<a name="top4" class="anchor"> </a>
+<a name="top5" class="anchor"> </a>
+<a name="top6" class="anchor"> </a>
+<a name="top7" class="anchor"> </a>
+
+<div class="tabs">
+	<center><ul class="tablink">
+        <li class="active"> <a href="#home"> Homepage </a> <li>
+        <li> <a href="#objective"> Objective </a> <li>
+	<li> <a href="#experience"> Experience and Leadership </a> <li>
+	<li> <a href="#activism"> Activism </a> <li>
+        <li> <a href="#honors"> Honors and Awards </a> <li>
+        <li> <a href="#past"> Past Achievements </a> <li>
+	<li> <a href="#contact"> Contact </a> <li> 
+            </ul></center>
+	<hr>
+	<div class="tab-content">
+		<div id="home" class="tab active">
+            <body>
+                <h3 id="line1"> Hello! My name is Natalie Rakoski.</h3>
+                  <!--  <p>This is a website about me that I wrote myself using HTML/CSS and JAVASCRIPT. It was a little project I did over Winter Break 2014. </p> -->
+                <img src="http://i.imgur.com/7pu6ybC.jpg"style="width:275px;height:300px"/>
+		<br>
+		<a href="http://www.linkedin.com/in/natalierakoski/">
+		<img src="http://i.imgur.com/OUutm08.png"style="width:250px;height:52px"/></a> 
+		<br>
+		<a href="https://drive.google.com/file/d/0B9upfOeAa6JCdVA1WXdQY1RJUjVod3JmTEwteVZ4WWxaTzM0/view?usp=sharing">
+		<img src="http://i.imgur.com/fZgQdT2.png"style="width:250px;height:52px"/></a>  
+            <br>
+            <br>
+            <center><div id="EE">
+                <h3> I am an undergraduate and my major is Computer Engineering.</h3>
+                <img src="http://i.imgur.com/R39crSY.jpg" style="width:250px;height:250px">
+                <p> Below I will add a common image for every Computer engineering specific class I have taken in my major and every programming language I know. </p>
+                <img src="http://i.imgur.com/zvkt5ZB.png" alt="CS1371: Matlab" style="width:175px;height:150px">
+                    <img src="http://i.imgur.com/yz9GIWW.jpg" alt="HTML/CSS and Javascript" style="width:200px;height:150px">
+                        <img src="http://i.imgur.com/7e41PeX.png" width='200' height='150' onmouseover="this.src='http://i.imgur.com/geQIfKp.jpg';" onmouseout="this.src='http://i.imgur.com/7e41PeX.png';" alt="2020"/>
+                <img src="http://i.imgur.com/kA43Hq0.png" alt="Python" style="width:150px;height:150px">
+                    <img src="http://i.imgur.com/lrUNSRO.jpg" width='200' height='200' onmouseover="this.src='http://i.imgur.com/K5Wxm6O.jpg';" onmouseout="this.src='http://i.imgur.com/lrUNSRO.jpg';" alt="2026"/>
+                <img src="http://i.imgur.com/4mi6jtm.png" alt="C Programming" style="width:200px;height:200px">
+		    <img src="http://i.imgur.com/CbFpLcO.jpg" width='150' height='200' onmouseover="this.src='http://i.imgur.com/MFy5OrP.jpg';" onmouseout="this.src='http://i.imgur.com/CbFpLcO.jpg';" alt="2035"/>
+                <img src="http://i.imgur.com/k4yewqv.jpg" alt="Linux" style="width:150px;height:150px">
+                    </div> </center>
+ 
+            <br>
+            <br>
+            <br>
+            <br>
+            <div id="GT">
+                <h3> I am a 3rd Year at Georgia Institute of Technology.</h3>
+                 <p> No amount of pictures could express the love for my school, so I'll show some of my favorites. </p>
+                 <img src="http://i.imgur.com/5c6OncU.png" alt="Georgia Tech" style="width:600px;height:125px">
+                  <br>
+                 <img src="http://i.imgur.com/2hRVBsP.jpg" style="width:600px;height:240px">
+                     <br>
+                   <img src="http://i.imgur.com/miuyCaY.jpg" style="width:600px;height:330px">
+                       <br>
+                       <img src="http://i.imgur.com/78mG9xi.jpg" style="width:600px;height:450px">
+            </div>
+<br>
+<br>
+		<center><a href="#top1"><img src="http://i.imgur.com/j6ubDzw.png" style="width:100px;height:20px"></a></center>
+            </body>
+	</div>
+		
+        <div id="objective" class="tab">
+        <body>
+            <div id="main">
+			<h4> Current Objective </h4>
+                <p> Gain acceptance to the 5 year Electrical and Computer Engineering Bachelors/ Masters degree program at Georgia Tech following my Junior year and graduate with honors.</p>
+                <br>
+                <br>
+                <img src="http://i.imgur.com/weLuP2F.jpg" style="width:600px;height:150px">
+            </div>
+            <h4> I am a "planner".</h4> 
+            <p>I love to think ahead. I have short and long term goals; as well as an opportunities bucket list. I want to try many differnet sides of computer engineering before I graduate so I know what type of work inspires me the most. I also want to fit the most amount of learning and experience into my undergraduate degree as possible. </p>
+
+            <h4> Why stress participation in internship? </h4>
+            <p> I focus so much on work experience because it is an essential component in pin-pointing the path I would like to take with my career. Also I feel that the hands-on experience through internship is equally important, if not greater, than the academic component of becoming an engineer. </p>
+            <h4> Why aim for international work experience? </h4>
+            <p>In a world that is slowly becoming more globalized, working abroad is an goal that college students should strive to accomplish. I am apart of the International Program at Georgia Institute of Tecchnology with a key focus of study in Germany. I hope to work abroad in Germany sometime during my degree, meanwhile I am taking classes on international policy and economics on campus in Atlanta, GA.  </p>
+                <center> <img src="http://i.imgur.com/oaTg7g2.jpg" style="width:700px;height:100px"> </center>
+<br>
+<br>
+	<center><a href="#top2"><img src="http://i.imgur.com/j6ubDzw.png" style="width:100px;height:20px"></a></center>      
+        </body>
+		</div>
+
+                
+		<div id="experience" class="tab">
+            <body>
+
+
+                <center><table id="jobs" style="width:100%">
+		<tr>
+
+		<td><br></td>
+
+		<td><u><h1> Work Experience </h1></u><br></td>
+
+		<td><br></td>
+
+		</tr>
+		<tr>
+
+		<td><br></td>
+
+                <td><img src="http://i.imgur.com/xuDXeum.jpg" style="width:200px;height:200px">
+                <p><h3>Freescale Semiconductor</h3></p>
+                <p> Micro-controller Applications Intern</p>
+                <p> Austin, Texas </p>
+                <p> May 2015 - August 2015</p>
+		<br><br></td>
+
+		<td><br></td>
+
+                </tr>
+                <tr>
+
+		<td><br></td>
+
+                <td><img src="http://i.imgur.com/MywqGFE.png" style="width:200px;height:200px">
+                <p><h3>General Motors Co-op Student</h3></p>
+		<br></td>
+
+		<td><br></td>
+
+		</tr>
+                <tr>
+
+                <td><p><b> 1.Callibration Specialist/ Drive Quality Engineer</b></p>
+                <p> Milford Proving Grounds, Michigan </p>
+                <p> May 2014 - July 2014</p>
+		<br><br><br></td>
+
+
+		<td><p><b> 2.Engine Teardown/ Engine Validation/ Engine Controls</b></p>
+                <p> Pontiac, Michigan </p>
+                <p> August 2015 - January 2016</p>
+		<br><br><br></td>
+
+		<td><p><b> 3. To Be Determined </b></p>
+		<br><br><br><br><br></td>
+
+                </tr>
+                <tr>
+
+		<td><br></td>
+
+                <td><img src="http://i.imgur.com/AZMltxw.jpg" style="width:200px;height:200px">
+                <p><h3> Georgia Tech Research Institute</h3></p>
+                <p> Electrical Systems Laboratory<p>
+		<p> Radar Refurbishment for B-1 Fighter Jet</p>
+                <p> Part-time Student Research Assistant</p>
+                <p> September 2013 - Current </p>
+		<br><br><br><br><br></td>
+
+		<td><br></td>
+
+                </tr>
+
+		<tr>
+
+		<td><br></td>
+
+		<td><u><h1> Leadership Experience </h1></u><br><br><br></td>
+
+		<td><br></td>
+
+		</tr>
+
+                </table></center>
+
+
+                <table id="leadership" style="width:100%">
+                <tr>
+
+		<td><br></td>
+
+                <td><p><b> EcoCAR 3: Controls Subteam Leader </b></p>
+                        <p>EcoCAR 3 is a 4 year long competition focused on designing a hybrid-electric Cheverlet Camaro. As the controls subteam leader my responsibilities include setting goals and deadlines of my team and coordinated with the other subteams. I am also a member of the development sub-team. </p></td>
+                    
+		<td><a href="https://www.youtube.com/watch?v=6EJ2Fkwe9qU"><img src="http://i.imgur.com/SCLAH3Q.jpg" style="width:400px;height:200px"></a></td>
+                
+		<td><br></td>
+
+		</tr>
+ 		<tr>
+
+		<td><br></td>
+
+		<td><p><b> SWE High School Activism Chair: After School Program </b></p>
+     		<p>Society of Women Engineers is an organization that helps support women to enter into engineering fields. Fall 2014 I charterd a new section of our high school activism efforts; an after school program where engineering students mentor students at Kipp Collegiate, a local, public high school, in entering science and engineering competitions. </p>                     
+ 		</td>
+
+                <td><img src="http://i.imgur.com/yfL3O61.jpg" style="width:200px;height:300px"></td>
+
+		<td><br></td>
+
+                </tr>
+                </table>
+<br>
+<br>                        
+            <center><a href="#top3"><img src="http://i.imgur.com/j6ubDzw.png" style="width:100px;height:20px"></a></center>       
+            </body>
+		</div>
+
+
+
+	<div id="activism" class="tab">
+		<body>
+			 <center><h4>I primarily do work to support the Society of Women Engineers at Georgia Tech. </h4></center>
+            <center><img src="http://i.imgur.com/CO147vi.jpg" style="width:500px;height:157px"></center>
+                <!--<table><tr><p> Current Position: High School Outreach Chair</p></tr>
+                    <tr><p>Past Position: Purchasing Chair</p></tr></table>-->
+		<br>
+		<br>
+                <center><h2> My Current Efforts </h2></center>
+		<br>
+                <table>
+                <tr>
+                                    <td>
+                                        <p><b> After School Research Program </b></p>
+                                        <p> Fall 2014 I charterd a new section of our high school activism efforts. This new section is an after school program where engineering students mentor students at Kipp Collegiate, a local, public high school, to complete research projects. Upon sucessful completion these projects will be entered into science and engineering competitions. The program will start Spring 2015. </p>
+                                    </td>
+                                    <td><img src="http://i.imgur.com/yfL3O61.jpg" style="width:300px;height:450px"></td>
+                                </tr>
+                            </table>
+                    <center><h4>High School Research Club Photos</h4></center>
+                    <center><img src="http://i.imgur.com/9IPQtk7.png" style="width:100px;height:100px"></center>
+                    <table> <tr>
+                        <td></td>
+                        <td></td><td></td></tr>
+                        <tr>
+                            <td></td><td></td><td></td>
+                        </tr></table>
+                
+<br>
+<br>
+		<center><a href="#top4"><img src="http://i.imgur.com/j6ubDzw.png" style="width:100px;height:20px"></a></center>
+		</body>
+		</div>
+
+
+
+		
+        <div id="honors" class="tab">
+            <body>
+                <table>
+			 <tr>
+ <td><p><b> One GTRI Collaboration Award 2013 </b></p>
+     <p>For being a key member in the project "Pulse Processing Deficiency Studies". During my assistantship in the 2013-2014 school year, I wrote MATLAB code that was used in radar technology research projects and experiments for the Electronic Systems Laboratory of Georgia Tech Research Institute. </p>                     
+ </td>
+                 <td><img src="http://i.imgur.com/cdgU49B.jpg" style="width:300px;height:300px"></td>
+                    </tr>
+                </table>
+<br>
+<br>
+		<center><a href="#top5"><img src="http://i.imgur.com/j6ubDzw.png" style="width:100px;height:20px"></a></center>
+            </body>
+		</div>
+
+
+        
+        <div id="past" class="tab">
+	    <body>
+            <center><h4> This is a list of accomplishments I made before I came to Georgia Tech.</h4></center>
+            <br>
+            <br>
+        <table>               
+               <tr>
+                   <td>
+                       <p><b> Surgeon General's Certificate of Appreciation and Medal of Honor - Spring 2013 </b></p> 
+                       <p>The certificate was awarded in recognition of dedication to the field of preventative medicine at the 2013 Intel ISEF (International Science and Engineering Fair) at the affiliate Georgia Science and Engineering Fair, Athens, GA, based on my "Gluten Free: Expense Extracted". The project was researched at the Chemistry Department at the University of West Georgia. I researched detoxifying Gluten which is very harmful to those with Gluten Intolerance.</p> 
+                   </td>
+                   <td>
+                   <img src="http://i.imgur.com/UUgffhS.jpg" style="width:300px;height:500px">    
+                   </td>    
+                   <tr>
+                   <td>
+                       <p><b> National Youth Science Camp - Summer 2013</b></p> 
+                       <p>I was one of two science students selected from the state of Georgia to attend The National Youth Science Camp. The NYSC is part of the National Youth Science Foundation. The program is recognized as the nation's premier science leadership program for college bound students.</p> 
+                   </td>
+                   <td>
+                   <img src="http://i.imgur.com/iChdUWx.jpg" style="width:300px;height:300px">    
+                   </td>
+                   <tr>
+                   <td>
+                       <p><b> C2C4 Scholar Program and Dual Enrollment - Fall 2012 </b></p> 
+                       <p> During my senior year of high school I decided to dual enroll at University of West Georgia and start my college classes early. I also got to UWG's Chemistry Lab to do my science project, Gluten Free: Expense Extracted through a program called the Care to Collaborate for (C2C4) Scholar Program. The C2C4 Science Scholar Program at the University of West Georgia allows select high school students to utilize the university's libraries, lab-space, and instrumentation in order to develop competitive, state of the art Science Fair Projects, and the opportunity to be mentored by professors.  </p> 
+                   </td>
+                   <td>
+                   <img src="http://i.imgur.com/7QtOHY9.jpg" style="width:300px;height:200px">    
+                   </td>
+               </tr>
+               <tr>
+                   <td>
+                       <p><b> Governors Honors: Math and Communicative Arts </b></p> 
+                       <p>The Georgia Governor's Honors Program is a four week summer residential instructional program designed to provide intellectually gifted and artistically talented high school students challenging and enriching educational opportunities not usually available during the regular school year.</p> 
+                   </td>
+                   <td>
+                   <img src="http://i.imgur.com/DR7Vqae.jpg" style="width:300px;height:200px">    
+                   </td>
+               </tr>
+		</table>
+		<br>
+		<br>    
+               <center><h2> Experience and Leadership </h2></center>
+		<table>
+               <tr>
+                   <td>
+                       <p><b> Ingles Markets </b></p>
+                       <p>January 2011 - June 2013 </p>
+                       <p>Cashier and Deli Associate </p>
+                       <p>Customer Service and Responsibility. This was my first job that I used to save for college, a car, and dual enroll at University of West GA my senior year of high school.</p>
+                   </td>
+                   <td>
+                   <img src="http://i.imgur.com/VD8t50w.jpg" style="width:300px;height:225px">    
+                   </td>
+               </tr>
+               <tr>
+                   <td>
+                       <p><b> Band Captian and Flute Section Leader </b></p> 
+                       <p> I played the flute and piccolo for my high school marching band. I was Flute Section Leader over 14 flute players, marching and symphonic, for my Junior and Senior years and Band Captian over all of the band for my senior year.  </p> 
+                   </td>
+                   <td>
+                   <img src="http://i.imgur.com/v2hGG98.jpg" style="width:300px;height:300px">    
+                   </td>
+               </tr>     
+        </table>
+<br>
+<br>
+	<center><a href="#top6"><img src="http://i.imgur.com/j6ubDzw.png" style="width:100px;height:20px"></a></center>    
+        </body>           
+		</div>
+
+            
+		<div id="contact" class="tab">
+			<body>
+                <table class="center">
+            <br>
+            <center>
+                 <h3>Email me, leave a comment, or check out my LinkedIn or Facebook!</h3>
+
+            </center>
+
+            <tr>
+                <td><a href="http://www.linkedin.com/in/natalierakoski"><img src="http://i.imgur.com/gO0bm3C.png" width="33" height="33" border="0" alt="View Natalie Rakoski's profile on LinkedIn"></a>
+                </td>
+                    <td></td>
+                <td>
+                <a href="mailto:nrakoski3@mail.gatech.edu"><img src="http://i.imgur.com/rzj36Gs.png" width="33" height="33" border="0" alt="Email Natalie Rakosk">
+                </td>
+                <td></td>
+                <td>
+                <a href="https://www.facebook.com/natalie.rakoski.1"><img src="http://i.imgur.com/upYtYLU.png" width="33" height="33" border="0" alt="View Natalie Rakoski's Facebook profile.">
+                </td>
+                
+            </tr>
+        </table>
+        <div class="content">
+            <form method="post" action="/cgi-bin/mailform">
+                <p>
+                    <!-- Form header and Send-To Information -->
+                    <!-- replace gtxXXXx with t-square ID -->
+                    <input type="hidden" name="mform-email" value="nrakoski3@gatech.edu" />
+                    <input type="hidden" name="mform-subject" value="Test Data" />
+                    <input type="hidden" name="mform-response" value="http://www.prism.gatech.edu/~nrakoski3/thankyou.html" />
+                    <input type="hidden" name="mform-encoding" value="text" />
+
+                    <!-- Main Part of the Form -->
+                    <center><div id="comment">
+			<b>Full Name:</b><br>
+			<input type="text" name="name">
+			<br>
+			<b>Contact Email:</b><br>
+			<input type="text" name="email">
+                    <br /><b>Comments:</b>
+                    <br />
+                    <textarea name="comments" rows="6" cols="45">None</textarea>
+                    <br />
+                    <!-- Submit / Clear Buttons -->
+                    <input type="submit" value="Done" />or
+                        <input type="reset" value="Clear"/>
+			</div></center>
+                </p>
+            </form>
+            </div>
+                    <br>
+        <p>329417 Georgia Tech Station, Atlanta, GA 30332 | <a href="mailto:nrakoski3@mail.gatech.edu">nrakoski3@gatech.edu</a> | Tel: (404) 680-7040</p>
+                    <br>
+            </body>
+		</div>
+	</div>
+<hr>
+</div>
+</body>
+</html>

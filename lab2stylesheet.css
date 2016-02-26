@@ -1,0 +1,108 @@
+.tab{width:100%; display:inline-block; }
+
+.tablink:after{ display:block; clear:both; content:''}
+
+.tablink li { margin:0px 5px;float:none; display:inline-block; list-style:none;}
+
+.tablink a
+{padding:9px 15px;
+ display:inline-block; 
+ border-radius:3px 3px 0px 0px;
+ background:#ffffff;
+ font-family:"Arial Black", Gadget, sans-serif;
+ font-size:14px;
+ font-weight:600;
+ color:#4c4c4c;
+ transition:all linear 0.15s;}
+
+.tablink a:hover{background:#cdbe70; text-decoration:none;}
+
+li.active a, li.active a:hover {background: #cdbe70; color:#ffffff}
+
+.tab-content
+{padding:15px;
+ border-radius:3px;
+ box-shadow: -1px 1px 1px rgba(0,0,0,0.15);
+ background:#ffffff;}
+
+.tab{display:none;}
+
+.tab.active{display:block;}
+
+
+#home{
+    text-align: center;
+}
+#home.body{
+margin: 0px;
+padding: 0px;
+}
+
+    #line1{
+    }
+
+    #GT{
+    }
+
+    #EE{
+    }
+
+#objective{;    
+}
+#objective.body{
+margin: 0px;
+padding: 0px;
+}
+    #main{text-align: center;
+    }
+
+#experience{
+}
+#experience.body{
+margin: 0px;
+padding: 0px;
+}
+    #jobs{ padding:10px 10px;float:center;list-style:none;}
+    }
+
+#activism{
+}
+#activism.body{
+margin: 0px;
+padding: 0px;
+}
+
+#honors{margin: 0px;padding: 0px;
+}
+
+#past{margin: 0px;padding: 0px;
+}
+
+#about{margin: 0px;padding: 0px;
+}
+
+#contact{
+    clear: both;
+    background:#ffffff;
+    font-family: Verdana, sans-serif;
+    font-size: 14px;
+    text-align: center;
+}
+#comment {
+    width: 300px;
+    padding: 25px;
+    border: 25px;
+    margin: 25px;
+    background:#cdbe70;
+    border: 2px solid;
+    border-radius: 25px;
+}
+textarea {
+    max-width: 100px; 
+    max-height: 100px;
+}
+
+    table.center {
+        margin-left:auto;
+        margin-right:auto;
+    }
